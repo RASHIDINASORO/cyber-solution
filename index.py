@@ -99,7 +99,7 @@ with tab3:
             except Exception as e:
                 st.error(f"Error analyzing images: {e}")
 
-            # Clean up temp files
+            # Clean up files
             os.remove(orig_path)
             os.remove(susp_path)
         else:
